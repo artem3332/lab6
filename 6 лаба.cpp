@@ -104,7 +104,7 @@ int main()
 
 
 	ofstream out;
-	out.open("b.txt");
+	out.open("py.dat");
         out << x[0] << " " << x[1] << endl;
 	//metod pokoordinatnogo spuska
 	while ((abs(x[0] - x_temp[0]) > eps) && (abs(x[1] - x_temp[1]) > eps))
